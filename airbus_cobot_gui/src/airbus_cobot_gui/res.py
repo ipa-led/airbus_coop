@@ -72,6 +72,7 @@ class CobotGuiImages():
         self.dir = DIR_COBOTGUI_IMAGES
         self.icon_pause = DIR_COBOTGUI_IMAGES+'/icon_pause.png'
         self.wellcome_background = DIR_COBOTGUI_IMAGES+'/wellcome_background.png'
+        self.welcome_background_ipa = DIR_COBOTGUI_IMAGES+'/welcome_background_ipa.jpg'
         self.trad = DIR_COBOTGUI_IMAGES+'/trad.png'
         self.logo_airbus_group_2 = DIR_COBOTGUI_IMAGES+'/logo_airbus_group_2.png'
         self.open_xml = DIR_COBOTGUI_IMAGES+'/open_xml.png'
@@ -92,6 +93,7 @@ class CobotGuiImages():
         self.icon_emergency_stop_unlock = DIR_COBOTGUI_IMAGES+'/icon_emergency_stop_unlock.png'
         self.icon_emergency_stop_locked = DIR_COBOTGUI_IMAGES+'/icon_emergency_stop_locked.png'
         self.logo_airbus_group = DIR_COBOTGUI_IMAGES+'/logo_airbus_group.png'
+        self.ipa_logo = DIR_COBOTGUI_IMAGES+'/ipa_logo.png'
         self.wellcome_base = DIR_COBOTGUI_IMAGES+'/wellcome_base.png'
         self.icon_emergency_stop = DIR_COBOTGUI_IMAGES+'/icon_emergency_stop.png'
         self.status_error = DIR_COBOTGUI_IMAGES+'/status_error.png'

@@ -63,7 +63,7 @@ class CobotGuiSplash(QSplashScreen):
         # Extend the widget with all attributes and children from UI file
         loadUi(R.layouts.welcome, self)
         
-        self.setPixmap(R.getPixmapById("wellcome_background").scaled(600, 400,
+        self.setPixmap(R.getPixmapById("welcome_background_ipa").scaled(600, 400,
                                        Qt.KeepAspectRatio,
                                        Qt.SmoothTransformation))
         
@@ -148,7 +148,7 @@ class CobotGuiMain(QWidget):
         self.alarm_layout.addWidget(self.alarms_manager)
         
         #Display Airbus Group logo
-        self.logo_label.setPixmap(R.getPixmapById('logo_airbus_group').scaled(
+        self.logo_label.setPixmap(R.getPixmapById('ipa_logo').scaled(
                            self.logo_label.width()-2,
                            self.logo_label.height()-2,
                            Qt.KeepAspectRatio,
@@ -214,7 +214,7 @@ class CobotGuiMain(QWidget):
         self.getContext().switchLanguage(lng)
         
         if app_mode == self.APP_MODE_DEBUG:
-            self.getContext().switchUser(User('Airbus Group', Privilege.EXPERT))
+            self.getContext().switchUser(User('IPA USER', Privilege.EXPERT))
         else:
             # Load default user none -> open login dialog
             self.getContext().switchUser(User())

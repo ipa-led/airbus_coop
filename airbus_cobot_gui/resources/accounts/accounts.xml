@@ -12,4 +12,10 @@
     <privilege>developer</privilege>
     <password>MTEyMDg=</password>
   </user>
+  <user id="IPA-LED">
+    <created>1512395638235428094</created>
+    <modified>1512395638235439062</modified>
+    <privilege>developer</privilege>
+    <password>RDExbGkyMDg=</password>
+  </user>
 </accounts>
